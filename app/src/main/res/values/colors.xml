@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#362FC2</color>
+    <color name="colorAccent">#5F56CA</color>
+
+    <color name="color1">#404040</color>
+    <color name="color2">#B2B2B2</color>
+    <color name="color3">#2A2A2A</color>
+    <color name="color4">#E5E5E5</color>
+    <color name="color5">#F6F6F6</color>
+    <color name="color6">#FFFFFF</color>
+    <color name="color7">#000000</color>
+    <color name="color8">#4A4A4C</color>
+    
+    <color name="button_transparent">#00FF0000</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="full_background">#F5F5F5</color>
+    <color name="home_background">#FBFBFB</color>
+    <color name="main_background">#F8F7F7</color>
+    <color name="content_background">#F3F3F3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="content_seekbar_background">#E3E3E3</color>
+
+    <color name="logo_color">#362FC2</color>
+    <color name="home_color">#5156ca</color>
+    
+    <color name="warning">#D50000</color>
+    
+    <color name="main_color">#5F56CA</color>
+    <color name="main_color2">#6258CA</color>
+    <color name="color_background">#786DC6</color>
+    <color name="mic_speaking">#335F56CA</color>
+    
+    <color name="email_login_hint">#5AFFFFFF</color>
+    
+    <color name="news_title">#333333</color>
+    
+    <color name="logo_color_purple">#362FC2</color>
+    <color name="logo_color_orange">#514835</color>
+    <color name="logo_color_green">#008771</color>
+    <color name="logo_color_purple2">#5F56CA</color>
+    <color name="logo_color_orange2">#8E6244</color>
+    <color name="logo_color_green2">#147562</color>
+    <color name="main_color_purple">#5F56CA</color>
+    <color name="main_color_orange">#F39048</color>
+    <color name="main_color_green">#00A388</color>
+    <color name="color_background_purple">#786DC6</color>
+    <color name="color_background_orange">#F99F5D</color>
+    <color name="color_background_green">#79BD8F</color>
+    <color name="main_speaking_pad">#54FFFFFF</color>
+    
+</resources>

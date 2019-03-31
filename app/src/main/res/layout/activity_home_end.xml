@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:background="@color/home_background"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	tools:context=".HomeEndActivity">
+	
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/home_end_exit"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_marginTop="53dp">
+		<ImageButton
+			android:id="@+id/home_end_exitButton"
+			android:layout_width="18dp"
+			android:layout_height="18dp"
+			android:src="@drawable/home_end_exit"
+			android:scaleType="fitXY"
+			android:background="@color/button_transparent"
+			app:layout_constraintRight_toRightOf="parent"
+			android:layout_marginEnd="28dp"/>
+	</android.support.constraint.ConstraintLayout>
+	
+	<ImageView
+		android:id="@+id/home_end_person"
+		android:layout_width="300dp"
+		android:layout_height="300dp"
+		android:src="@drawable/end_person_purple"
+		android:adjustViewBounds="true"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/home_end_exit"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintVertical_bias="0.3"/>
+	
+	<TextView
+		android:id="@+id/home_end_msg"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/home_end_msg"
+		android:textSize="24sp"
+		android:textAlignment="center"
+		android:textColor="@color/logo_color"
+		android:fontFamily="@font/notosans_bold"
+		android:includeFontPadding="false"
+		app:layout_constraintTop_toBottomOf="@id/home_end_person"
+		android:layout_marginTop="36dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/mic_speaking_background_home_end"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/transparent">
+		<ImageView
+			android:id="@+id/mic_speaking_home_end"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/mic_speaking_purple"
+			android:visibility="invisible"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"/>
+	</android.support.constraint.ConstraintLayout>
+	
+</android.support.constraint.ConstraintLayout>

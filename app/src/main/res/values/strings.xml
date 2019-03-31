@@ -1,0 +1,93 @@
+<resources>
+	<string name="app_name">SalaryNews</string>
+	<string name="kakao_app_key">a9d869a29d683e3bc22c6494c72ca865</string>
+	<string name="facebook_app_id">640990529653823</string>
+	<string name="fb_login_protocol_scheme">fb640990529653823</string>
+	<string name="naver_ClientId">rtn02fyrzw</string>
+	<string name="naver_ClientSecret">kThXHahMbIFpdx3mD5rugEn47tgTqXdpYjLWxWtO</string>
+	<string name="naver_tts_url">https://naveropenapi.apigw.ntruss.com/voice/v1/tts</string>
+	<string name="app_server">https://54.180.114.76:8888</string>
+	<string name="newsDB_server">https://13.209.68.180:8800</string>
+	<string name="login_missing_password">비밀번호를 잊어버리셨나요?</string>
+	<string name="email_login_id">아이디</string>
+	<string name="email_login_id_hint">아이디(이메일)을 입력해주세요</string>
+	<string name="email_login_password">비밀번호</string>
+	<string name="email_login_password_hint">비밀번호를 입력해주세요</string>
+	<string name="email_login_saveId">아이디저장</string>
+	<string name="email_login_autoLogin">자동로그인</string>
+	<string name="email_login_signup">계정이 없으신가요?\ \ \ \ 계정 만들기</string>
+	<string name="signup_msg">회원가입</string>
+	<string name="signup_name">이름</string>
+	<string name="signup_name_hint">이름을 입력하세요</string>
+	<string name="signup_name_warning">이름을 1자 이상 입력해주세요.</string>
+	<string name="signup_email">이메일</string>
+	<string name="signup_email_hint">이메일을 입력해주세요</string>
+	<string name="signup_email_warning">유효하지 않은 이메일 주소입니다.</string>
+	<string name="signup_password">비밀번호</string>
+	<string name="signup_password_hint">비밀번호를 입력해주세요</string>
+	<string name="signup_password_warning">비밀번호를 6~15자 사이로 입력해주세요.</string>
+	<string name="signup_passwordConfirm">비밀번호 확인</string>
+	<string name="signup_passwordConfirm_hint">비밀번호를 확인해주세요</string>
+	<string name="signup_passwordConfirm_warning">비밀번호가 일치하지 않습니다.</string>
+	<string name="home_startnews_1">\"샐러리 뉴스\" 라고 불러주시면</string>
+	<string name="home_startnews_2">오늘의 뉴스를 시작할게요.</string>
+	<string name="nav_theme">테마</string>
+	<string name="nav_theme_purple">보라</string>
+	<string name="nav_theme_orange">주황</string>
+	<string name="nav_theme_green">초록</string>
+	<string name="home_end_msg">\"오늘의 추천은 여기서\n마치겠습니다.\"</string>
+	<string name="menu_item_myinfo">내 정보</string>
+	<string name="menu_item_alarm">알림</string>
+	<string name="menu_item_category">카테고리 설정</string>
+	<string name="menu_item_theme">테마</string>
+	<string name="main_not_ready">준비중입니다</string>
+	<string name="content_news_title">뉴스를 불러오는 중입니다</string>
+	<string name="news_1">1</string>
+	<string name="news_2">2</string>
+	<string name="news_3">3</string>
+	<string name="category">카테고리 설정</string>
+	<string name="category_explain">각 카테고리의 선호도를 선택해주세요.\n원하는 뉴스를 콕! 집어드리기 위해 쓰여요.</string>
+	<string name="category_1">정치</string>
+	<string name="category_2">산업/경제</string>
+	<string name="category_3">사회</string>
+	<string name="category_4">IT/과학</string>
+	<string name="category_5">세계</string>
+	<string name="category_6">스포츠</string>
+	<string name="category_7">연예</string>
+	<string name="category_8">문화</string>
+	<string name="text_for_login_kakao_account">Log in with Kakao</string>
+	<string name="text_login_fragment">Login with Fragment</string>
+	<string name="text_login_activity">Login with Activity</string>
+	<string name="clova_clientId">rtn02fyrzw</string>
+	<string name="clova_clientSecret">kThXHahMbIFpdx3mD5rugEn47tgTqXdpYjLWxWtO</string>
+	<string name="cancel">Cancel</string>
+	<string name="ok">OK</string>
+	<string name="usermgmg_signup_button">Signup</string>
+	<string name="usermgmg_me_button">Update scope</string>
+	<string name="usermgmg_update_profile_button">Update</string>
+	<string name="usermgmg_name">Write Your Name</string>
+	<string name="usermgmg_age">Write Your Age</string>
+	<string name="male">Male</string>
+	<string name="female">Female</string>
+	<string-array name="usermgmg_gender_types">
+		<item>@string/female</item>
+		<item>@string/male</item>
+	</string-array>
+	<string name="error_message_for_service_unavailable">Unstable network connection. \nPlease try again later.</string>
+	
+	<string name="dialogflow_reserved_start">스타트</string>
+	<string name="dialogflow_reserved_end">엔드</string>
+	
+	<string name="mic_again_msg">무슨 말을 하셨는지 잘   못알아 들었어요. 다시 말씀해 주세요.</string>
+	<string name="no_input_msg">다시 말씀해주세요.</string>
+	<string name="select_next_msg">마음에 드는 뉴스가 없으신가봐요.</string>
+	<string name="wrong_news_index_msg">옳지 않은 번호의 뉴스를 선택하셨어요.</string>
+	
+	<string name="title_activity_navigate_home">Navigate_home</string>
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+	<string name="nav_header_title">Android Studio</string>
+	<string name="nav_header_subtitle">android.studio@android.com</string>
+	<string name="nav_header_desc">Navigation header</string>
+	<string name="action_settings">Settings</string>
+</resources>

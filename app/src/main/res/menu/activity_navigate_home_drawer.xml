@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:showIn="navigation_view">
+	<item
+		android:id="@+id/nav_myinfo"
+		android:icon="@drawable/home_navigation_myinfo"
+		android:title="@string/menu_item_myinfo" />
+	<item
+		android:id="@+id/nav_alarm"
+		android:icon="@drawable/home_navigation_alarm"
+		android:title="@string/menu_item_alarm" />
+	<item
+		android:id="@+id/nav_category"
+		android:icon="@drawable/home_navigation_category"
+		android:title="@string/category" />
+	<item
+		android:id="@+id/nav_theme"
+		android:icon="@drawable/home_navigation_theme"
+		android:title="@string/menu_item_theme" />
+</menu>
